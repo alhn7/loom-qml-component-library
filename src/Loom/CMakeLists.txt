@@ -16,5 +16,6 @@ qt_add_qml_module(LoomModule
         TextField.qml
         CheckBox.qml
         Switch.qml
+        Slider.qml
         Badge.qml
 )

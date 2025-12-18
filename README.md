@@ -119,7 +119,7 @@ cmake --build build
 |---|---|
 | ![Loom in dark mode](docs/overview-dark.png) | ![Theme token system](docs/theme-dark.png) |
 
-| Buttons — variants, sizes & states | Inputs — TextField, CheckBox, Switch |
+| Buttons — variants, sizes & states | Inputs — TextField, CheckBox, Switch, Slider |
 |---|---|
 | ![Button showcase](docs/button.png) | ![Form controls](docs/inputs.png) |
 

@@ -65,6 +65,7 @@ ScrollView {
                     { n: "TextField", k: "wi_textfield" },
                     { n: "CheckBox",  k: "wi_checkbox" },
                     { n: "Switch",    k: "wi_switch" },
+                    { n: "Slider",    k: "wi_slider" },
                     { n: "Badge",     k: "wi_badge" }
                 ]
                 delegate: Rectangle {

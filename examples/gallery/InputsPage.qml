@@ -23,7 +23,7 @@ ScrollView {
 
         CodeBlock {
             Layout.fillWidth: true
-            code: 'Loom.TextField {\n    label: "Email"\n    placeholderText: "you@example.com"\n    helperText: "Use your work email."\n    error: false           // true -> red border + errorText\n    variant: "outline"     // outline | filled\n}\n\nLoom.CheckBox { text: "Accept"; tristate: true }\nLoom.Switch   { text: "Notifications"; checked: true }'
+            code: 'Loom.TextField {\n    label: "Email"\n    placeholderText: "you@example.com"\n    helperText: "Use your work email."\n    error: false           // true -> red border + errorText\n    variant: "outline"     // outline | filled\n}\n\nLoom.CheckBox { text: "Accept"; tristate: true }\nLoom.Switch   { text: "Notifications"; checked: true }\nLoom.Slider   { from: 0; to: 100; value: 60; stepSize: 10 }'
         }
 
         RowLayout {
@@ -78,6 +78,16 @@ ScrollView {
                         Loom.Switch { text: "Off" }
                         Loom.Switch { text: "On"; checked: true }
                         Loom.Switch { text: I18n.t("f_disabled"); checked: true; enabled: false }
+                    }
+                }
+
+                TokenSection {
+                    title: I18n.t("g_slider")
+                    Column {
+                        spacing: Loom.Theme.spacing.md
+                        Loom.Slider { width: 200; value: 0.4 }
+                        Loom.Slider { width: 200; from: 0; to: 100; value: 60; stepSize: 10 }
+                        Loom.Slider { width: 200; value: 0.5; enabled: false }
                     }
                 }
             }
