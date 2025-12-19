@@ -35,6 +35,7 @@ by overriding a handful of properties. No C++ is required to use or build it.
 | `TextField` | Single-line text input with focus ring |
 | `CheckBox` | Boolean control with animated check |
 | `Switch` | Toggle control with animated thumb |
+| `Slider` | Draggable value slider with steps & keyboard support |
 | `Badge` | Compact status / label pill |
 
 Plus the building blocks: `Theme` (token singleton), `FocusRing` and `Elevation`.
