@@ -23,7 +23,7 @@ ScrollView {
 
         CodeBlock {
             Layout.fillWidth: true
-            code: 'Loom.TextField {\n    label: "Email"\n    placeholderText: "you@example.com"\n    helperText: "Use your work email."\n    error: false           // true -> red border + errorText\n    variant: "outline"     // outline | filled\n}\n\nLoom.CheckBox { text: "Accept"; tristate: true }\nLoom.Switch   { text: "Notifications"; checked: true }\nLoom.Slider   { from: 0; to: 100; value: 60; stepSize: 10 }'
+            code: 'Loom.TextField {\n    label: "Email"\n    placeholderText: "you@example.com"\n    helperText: "Use your work email."\n    error: false           // true -> red border + errorText\n    variant: "outline"     // outline | filled\n}\n\nLoom.CheckBox { text: "Accept"; tristate: true }\nLoom.Switch   { text: "Notifications"; checked: true }\nLoom.Slider   { from: 0; to: 100; value: 60; stepSize: 10 }\nLoom.RadioGroup { model: ["Light", "Dark", "System"] }'
         }
 
         RowLayout {
@@ -80,6 +80,11 @@ ScrollView {
                         Loom.Switch { text: I18n.t("f_disabled"); checked: true; enabled: false }
                     }
                 }
+            }
+
+            ColumnLayout {
+                Layout.alignment: Qt.AlignTop
+                spacing: Loom.Theme.spacing.xl
 
                 TokenSection {
                     title: I18n.t("g_slider")
@@ -88,6 +93,18 @@ ScrollView {
                         Loom.Slider { width: 200; value: 0.4 }
                         Loom.Slider { width: 200; from: 0; to: 100; value: 60; stepSize: 10 }
                         Loom.Slider { width: 200; value: 0.5; enabled: false }
+                    }
+                }
+
+                TokenSection {
+                    title: I18n.t("g_radio")
+                    Loom.RadioGroup {
+                        model: [
+                            { text: "Light" },
+                            { text: "Dark", checked: true },
+                            { text: "System" },
+                            { text: I18n.t("f_disabled"), enabled: false }
+                        ]
                     }
                 }
             }

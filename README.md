@@ -36,6 +36,7 @@ by overriding a handful of properties. No C++ is required to use or build it.
 | `CheckBox` | Boolean control with animated check |
 | `Switch` | Toggle control with animated thumb |
 | `Slider` | Draggable value slider with steps & keyboard support |
+| `RadioButton` | Single-choice control; group several with `RadioGroup` |
 | `Badge` | Compact status / label pill |
 
 Plus the building blocks: `Theme` (token singleton), `FocusRing` and `Elevation`.
@@ -120,7 +121,7 @@ cmake --build build
 |---|---|
 | ![Loom in dark mode](docs/overview-dark.png) | ![Theme token system](docs/theme-dark.png) |
 
-| Buttons — variants, sizes & states | Inputs — TextField, CheckBox, Switch, Slider |
+| Buttons — variants, sizes & states | Inputs — TextField, CheckBox, Switch, Slider, Radio |
 |---|---|
 | ![Button showcase](docs/button.png) | ![Form controls](docs/inputs.png) |
 

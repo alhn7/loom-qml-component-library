@@ -17,5 +17,7 @@ qt_add_qml_module(LoomModule
         CheckBox.qml
         Switch.qml
         Slider.qml
+        RadioButton.qml
+        RadioGroup.qml
         Badge.qml
 )

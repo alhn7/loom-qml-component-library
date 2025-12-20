@@ -28,7 +28,7 @@ QtObject {
             "desc_theme": "Design token system",
             "desc_button": "Variants · sizes · states",
             "desc_card": "Named slots · elevation",
-            "desc_inputs": "TextField · CheckBox · Switch · Slider",
+            "desc_inputs": "TextField · CheckBox · Switch · Slider · Radio",
             "desc_badge": "Status labels",
             "ov_hero": "A modern, minimal component library for QML.",
             "ov_body": "The QML answer to shadcn/ui · Radix on the web. Token-based theming, headless behavior on QtQuick.Templates, one-line rebranding. Zero C++ in v1.",
@@ -48,6 +48,7 @@ QtObject {
             "g_checkbox": "CheckBox",
             "g_switch": "Switch",
             "g_slider": "Slider",
+            "g_radio": "RadioGroup",
             "intro_theme": "Every color, spacing, radius and type value comes from one writable Theme singleton. Change a seed token to rebrand everything live.",
             "intro_button": "Built on QtQuick.Templates — focus, keyboard and press states come for free. Five variants, three sizes, plus loading and icon support.",
             "intro_card": "A container with named header / content / footer slots and an optional MultiEffect shadow (elevation 0–3).",
@@ -84,6 +85,7 @@ QtObject {
             "wi_checkbox": "checked · indeterminate",
             "wi_switch": "animated toggle",
             "wi_slider": "drag · keyboard · steps",
+            "wi_radio": "single-choice group",
             "wi_badge": "5 status variants"
         },
         "de": {
@@ -91,7 +93,7 @@ QtObject {
             "desc_theme": "Design-Token-System",
             "desc_button": "Varianten · Größen · Zustände",
             "desc_card": "Benannte Slots · Elevation",
-            "desc_inputs": "TextField · CheckBox · Switch · Slider",
+            "desc_inputs": "TextField · CheckBox · Switch · Slider · Radio",
             "desc_badge": "Status-Labels",
             "ov_hero": "Eine moderne, minimalistische Komponentenbibliothek für QML.",
             "ov_body": "Die QML-Antwort auf shadcn/ui · Radix im Web. Token-basiertes Theming, headless Verhalten auf QtQuick.Templates, Rebranding mit einer Zeile. In v1 ganz ohne C++.",
@@ -111,6 +113,7 @@ QtObject {
             "g_checkbox": "CheckBox",
             "g_switch": "Switch",
             "g_slider": "Slider",
+            "g_radio": "RadioGroup",
             "intro_theme": "Jeder Farb-, Abstands-, Radius- und Schriftwert stammt aus einem einzigen beschreibbaren Theme-Singleton. Ändere ein Seed-Token, um alles live umzustylen.",
             "intro_button": "Basiert auf QtQuick.Templates — Fokus-, Tastatur- und Druckzustände gibt es gratis. Fünf Varianten, drei Größen, dazu Loading und Icon.",
             "intro_card": "Ein Container mit benannten header- / content- / footer-Slots und optionalem MultiEffect-Schatten (Elevation 0–3).",
@@ -147,6 +150,7 @@ QtObject {
             "wi_checkbox": "checked · indeterminate",
             "wi_switch": "animierter Toggle",
             "wi_slider": "Ziehen · Tastatur · Schritte",
+            "wi_radio": "Einzelauswahl-Gruppe",
             "wi_badge": "5 Status-Varianten"
         },
         "es": {
@@ -154,7 +158,7 @@ QtObject {
             "desc_theme": "Sistema de design tokens",
             "desc_button": "Variantes · tamaños · estados",
             "desc_card": "Slots con nombre · elevación",
-            "desc_inputs": "TextField · CheckBox · Switch · Slider",
+            "desc_inputs": "TextField · CheckBox · Switch · Slider · Radio",
             "desc_badge": "Etiquetas de estado",
             "ov_hero": "Una biblioteca de componentes moderna y minimalista para QML.",
             "ov_body": "La respuesta QML a shadcn/ui · Radix en la web. Theming basado en tokens, comportamiento headless sobre QtQuick.Templates, rebranding en una línea. Cero C++ en v1.",
@@ -174,6 +178,7 @@ QtObject {
             "g_checkbox": "CheckBox",
             "g_switch": "Switch",
             "g_slider": "Slider",
+            "g_radio": "RadioGroup",
             "intro_theme": "Cada color, espaciado, radio y valor tipográfico proviene de un único Theme singleton editable. Cambia un token semilla para rediseñar todo en vivo.",
             "intro_button": "Construido sobre QtQuick.Templates: foco, teclado y estados de pulsación gratis. Cinco variantes, tres tamaños, más loading e icono.",
             "intro_card": "Un contenedor con slots header / content / footer con nombre y sombra MultiEffect opcional (elevación 0–3).",
@@ -210,6 +215,7 @@ QtObject {
             "wi_checkbox": "checked · indeterminate",
             "wi_switch": "toggle animado",
             "wi_slider": "arrastrar · teclado · pasos",
+            "wi_radio": "grupo de opción única",
             "wi_badge": "5 variantes de estado"
         },
         "tr": {
@@ -217,7 +223,7 @@ QtObject {
             "desc_theme": "Design token sistemi",
             "desc_button": "Variant · boyut · durum",
             "desc_card": "Named slot · elevation",
-            "desc_inputs": "TextField · CheckBox · Switch · Slider",
+            "desc_inputs": "TextField · CheckBox · Switch · Slider · Radio",
             "desc_badge": "Durum etiketleri",
             "ov_hero": "QML için modern, minimal bir component kütüphanesi.",
             "ov_body": "Web'deki shadcn/ui · Radix mantığının QML karşılığı. Token tabanlı tema, QtQuick.Templates üstüne headless davranış, tek satırla yeniden markalama. v1'de sıfır C++.",
@@ -237,6 +243,7 @@ QtObject {
             "g_checkbox": "CheckBox",
             "g_switch": "Switch",
             "g_slider": "Slider",
+            "g_radio": "RadioGroup",
             "intro_theme": "Her renk, boşluk, radius ve tipografi değeri tek bir yazılabilir Theme singleton'dan gelir. Bir tohum token'ı değiştir, her şey canlı olarak yeniden markalansın.",
             "intro_button": "QtQuick.Templates üstüne kurulu — focus, klavye ve basılı durumları bedava gelir. Beş variant, üç boyut, ayrıca loading ve ikon desteği.",
             "intro_card": "İsimli header / content / footer slot'ları ve opsiyonel MultiEffect gölgesi (elevation 0–3) olan bir konteyner.",
@@ -273,6 +280,7 @@ QtObject {
             "wi_checkbox": "checked · indeterminate",
             "wi_switch": "animasyonlu toggle",
             "wi_slider": "sürükle · klavye · adım",
+            "wi_radio": "tek-seçim grubu",
             "wi_badge": "5 durum variant'ı"
         }
     }
