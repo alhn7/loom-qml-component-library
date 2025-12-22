@@ -21,7 +21,8 @@ ApplicationWindow {
         { key: "Button",   id: "button",   num: "03" },
         { key: "Card",     id: "card",     num: "04" },
         { key: "Inputs",   id: "inputs",   num: "05" },
-        { key: "Badge",    id: "badge",    num: "06" }
+        { key: "Badge",    id: "badge",    num: "06" },
+        { key: "Feedback", id: "feedback", num: "07" }
     ]
 
     RowLayout {
@@ -184,7 +185,7 @@ ApplicationWindow {
                 Item { Layout.fillHeight: true }
 
                 Text {
-                    text: "QtQuick.Templates · Qt 6.5+\n8 components · zero C++"
+                    text: "QtQuick.Templates · Qt 6.5+\n9 components · zero C++"
                     color: Loom.Theme.mutedForeground
                     font.family: "Menlo"
                     font.pixelSize: 11
@@ -305,6 +306,7 @@ ApplicationWindow {
                         CardPage {}
                         InputsPage {}
                         BadgePage {}
+                        FeedbackPage {}
                     }
                 }
             }

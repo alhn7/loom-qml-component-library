@@ -30,6 +30,7 @@ QtObject {
             "desc_card": "Named slots · elevation",
             "desc_inputs": "TextField · CheckBox · Switch · Slider · Radio",
             "desc_badge": "Status labels",
+            "desc_feedback": "Alerts & status messages",
             "ov_hero": "A modern, minimal component library for QML.",
             "ov_body": "The QML answer to shadcn/ui · Radix on the web. Token-based theming, headless behavior on QtQuick.Templates, one-line rebranding. Zero C++ in v1.",
             "ov_install": "Installation",
@@ -54,6 +55,7 @@ QtObject {
             "intro_card": "A container with named header / content / footer slots and an optional MultiEffect shadow (elevation 0–3).",
             "intro_inputs": "Form controls: a composite TextField (label, helper, error, filled) plus CheckBox and Switch with full keyboard & focus support.",
             "intro_badge": "A small status label in five variants — perfect for tags, counts and states.",
+            "intro_feedback": "Inline status messages in four tones — info, success, warning and destructive. Pure QML, driven by the same semantic colors as the rest of the kit.",
             "ov_freeze_body": "Semantic colors are writable. Assigning to 'Loom.Theme.card' breaks its binding, so the color FREEZES across light/dark. 'Reset' restores the live binding with Qt.binding.",
             "btn_override": "Override card = purple",
             "btn_reset": "Reset (binding)",
@@ -86,7 +88,8 @@ QtObject {
             "wi_switch": "animated toggle",
             "wi_slider": "drag · keyboard · steps",
             "wi_radio": "single-choice group",
-            "wi_badge": "5 status variants"
+            "wi_badge": "5 status variants",
+            "wi_alert": "info · success · warning · destructive"
         },
         "de": {
             "desc_overview": "Einführung & Einrichtung",
@@ -95,6 +98,7 @@ QtObject {
             "desc_card": "Benannte Slots · Elevation",
             "desc_inputs": "TextField · CheckBox · Switch · Slider · Radio",
             "desc_badge": "Status-Labels",
+            "desc_feedback": "Alerts & Statusmeldungen",
             "ov_hero": "Eine moderne, minimalistische Komponentenbibliothek für QML.",
             "ov_body": "Die QML-Antwort auf shadcn/ui · Radix im Web. Token-basiertes Theming, headless Verhalten auf QtQuick.Templates, Rebranding mit einer Zeile. In v1 ganz ohne C++.",
             "ov_install": "Installation",
@@ -119,6 +123,7 @@ QtObject {
             "intro_card": "Ein Container mit benannten header- / content- / footer-Slots und optionalem MultiEffect-Schatten (Elevation 0–3).",
             "intro_inputs": "Formular-Elemente: ein zusammengesetztes TextField (Label, Hilfe, Fehler, filled) plus CheckBox und Switch mit voller Tastatur- & Fokus-Unterstützung.",
             "intro_badge": "Ein kleines Status-Label in fünf Varianten — ideal für Tags, Zähler und Zustände.",
+            "intro_feedback": "Inline-Statusmeldungen in vier Tönen — info, success, warning und destructive. Pures QML, getrieben von denselben semantischen Farben wie der Rest des Kits.",
             "ov_freeze_body": "Semantische Farben sind beschreibbar. Eine Zuweisung an 'Loom.Theme.card' bricht das Binding, daher FRIERT die Farbe bei Light/Dark ein. 'Reset' stellt das Live-Binding mit Qt.binding wieder her.",
             "btn_override": "Override card = lila",
             "btn_reset": "Reset (Binding)",
@@ -151,7 +156,8 @@ QtObject {
             "wi_switch": "animierter Toggle",
             "wi_slider": "Ziehen · Tastatur · Schritte",
             "wi_radio": "Einzelauswahl-Gruppe",
-            "wi_badge": "5 Status-Varianten"
+            "wi_badge": "5 Status-Varianten",
+            "wi_alert": "info · success · warning · destructive"
         },
         "es": {
             "desc_overview": "Introducción y configuración",
@@ -160,6 +166,7 @@ QtObject {
             "desc_card": "Slots con nombre · elevación",
             "desc_inputs": "TextField · CheckBox · Switch · Slider · Radio",
             "desc_badge": "Etiquetas de estado",
+            "desc_feedback": "Alertas y mensajes de estado",
             "ov_hero": "Una biblioteca de componentes moderna y minimalista para QML.",
             "ov_body": "La respuesta QML a shadcn/ui · Radix en la web. Theming basado en tokens, comportamiento headless sobre QtQuick.Templates, rebranding en una línea. Cero C++ en v1.",
             "ov_install": "Instalación",
@@ -184,6 +191,7 @@ QtObject {
             "intro_card": "Un contenedor con slots header / content / footer con nombre y sombra MultiEffect opcional (elevación 0–3).",
             "intro_inputs": "Controles de formulario: un TextField compuesto (etiqueta, ayuda, error, filled) más CheckBox y Switch con soporte total de teclado y foco.",
             "intro_badge": "Una pequeña etiqueta de estado en cinco variantes — ideal para tags, contadores y estados.",
+            "intro_feedback": "Mensajes de estado en línea en cuatro tonos — info, success, warning y destructive. QML puro, con los mismos colores semánticos que el resto del kit.",
             "ov_freeze_body": "Los colores semánticos son editables. Asignar a 'Loom.Theme.card' rompe su binding, así que el color se CONGELA entre claro/oscuro. 'Reset' restaura el binding en vivo con Qt.binding.",
             "btn_override": "Override card = morado",
             "btn_reset": "Reset (binding)",
@@ -216,7 +224,8 @@ QtObject {
             "wi_switch": "toggle animado",
             "wi_slider": "arrastrar · teclado · pasos",
             "wi_radio": "grupo de opción única",
-            "wi_badge": "5 variantes de estado"
+            "wi_badge": "5 variantes de estado",
+            "wi_alert": "info · success · warning · destructive"
         },
         "tr": {
             "desc_overview": "Tanıtım & kurulum",
@@ -225,6 +234,7 @@ QtObject {
             "desc_card": "Named slot · elevation",
             "desc_inputs": "TextField · CheckBox · Switch · Slider · Radio",
             "desc_badge": "Durum etiketleri",
+            "desc_feedback": "Uyarılar & durum mesajları",
             "ov_hero": "QML için modern, minimal bir component kütüphanesi.",
             "ov_body": "Web'deki shadcn/ui · Radix mantığının QML karşılığı. Token tabanlı tema, QtQuick.Templates üstüne headless davranış, tek satırla yeniden markalama. v1'de sıfır C++.",
             "ov_install": "Kurulum",
@@ -249,6 +259,7 @@ QtObject {
             "intro_card": "İsimli header / content / footer slot'ları ve opsiyonel MultiEffect gölgesi (elevation 0–3) olan bir konteyner.",
             "intro_inputs": "Form öğeleri: kompozit TextField (label, helper, error, filled) ile tam klavye & focus destekli CheckBox ve Switch.",
             "intro_badge": "Beş variantlı küçük durum etiketi — tag'ler, sayaçlar ve durumlar için ideal.",
+            "intro_feedback": "Dört tonda satır içi durum mesajları — info, success, warning ve destructive. Saf QML, kitin geri kalanıyla aynı semantik renkleri kullanır.",
             "ov_freeze_body": "Semantik renkler yazılabilir. 'Loom.Theme.card' rengine değer atamak binding'i koparır, böylece renk light/dark'ta DONAR. 'Reset', Qt.binding ile canlı davranışı geri yükler.",
             "btn_override": "Override card = mor",
             "btn_reset": "Reset (binding)",
@@ -281,7 +292,8 @@ QtObject {
             "wi_switch": "animasyonlu toggle",
             "wi_slider": "sürükle · klavye · adım",
             "wi_radio": "tek-seçim grubu",
-            "wi_badge": "5 durum variant'ı"
+            "wi_badge": "5 durum variant'ı",
+            "wi_alert": "info · success · warning · destructive"
         }
     }
 }

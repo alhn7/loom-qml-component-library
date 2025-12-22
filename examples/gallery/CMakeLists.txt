@@ -22,6 +22,7 @@ qt_add_qml_module(galleryapp
         CardPage.qml
         InputsPage.qml
         BadgePage.qml
+        FeedbackPage.qml
     RESOURCES
         star.svg
 )
