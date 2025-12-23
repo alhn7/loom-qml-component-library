@@ -38,6 +38,7 @@ by overriding a handful of properties. No C++ is required to use or build it.
 | `Slider` | Draggable value slider with steps & keyboard support |
 | `RadioButton` | Single-choice control; group several with `RadioGroup` |
 | `Badge` | Compact status / label pill |
+| `Alert` | Inline status callout — info / success / warning / destructive |
 
 Plus the building blocks: `Theme` (token singleton), `FocusRing` and `Elevation`.
 
@@ -124,6 +125,10 @@ cmake --build build
 | Buttons — variants, sizes & states | Inputs — TextField, CheckBox, Switch, Slider, Radio |
 |---|---|
 | ![Button showcase](docs/button.png) | ![Form controls](docs/inputs.png) |
+
+| Feedback — Alert in four tones |
+|---|
+| ![Alert callouts](docs/feedback.png) |
 
 ## License
 
