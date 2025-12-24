@@ -39,6 +39,7 @@ by overriding a handful of properties. No C++ is required to use or build it.
 | `RadioButton` | Single-choice control; group several with `RadioGroup` |
 | `Badge` | Compact status / label pill |
 | `Alert` | Inline status callout — info / success / warning / destructive |
+| `Toast` | Floating notification — elevation, optional action & dismiss |
 
 Plus the building blocks: `Theme` (token singleton), `FocusRing` and `Elevation`.
 
@@ -126,9 +127,9 @@ cmake --build build
 |---|---|
 | ![Button showcase](docs/button.png) | ![Form controls](docs/inputs.png) |
 
-| Feedback — Alert in four tones |
+| Feedback — Alerts & Toasts in four tones |
 |---|
-| ![Alert callouts](docs/feedback.png) |
+| ![Alert callouts and Toast notifications](docs/feedback.png) |
 
 ## License
 

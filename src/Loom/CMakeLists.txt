@@ -21,4 +21,5 @@ qt_add_qml_module(LoomModule
         RadioGroup.qml
         Badge.qml
         Alert.qml
+        Toast.qml
 )
