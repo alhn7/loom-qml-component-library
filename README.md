@@ -41,7 +41,8 @@ by overriding a handful of properties. No C++ is required to use or build it.
 | `Alert` | Inline status callout — info / success / warning / destructive |
 | `Toast` | Floating notification — elevation, optional action & dismiss |
 
-Plus the building blocks: `Theme` (token singleton), `FocusRing` and `Elevation`.
+Plus the building blocks: `Theme` (token singleton), `FocusRing`, `Elevation` and
+`ToastArea` (corner overlay host that triggers transient, auto-dismissing toasts).
 
 ## Requirements
 

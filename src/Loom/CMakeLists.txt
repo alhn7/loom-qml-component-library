@@ -22,4 +22,5 @@ qt_add_qml_module(LoomModule
         Badge.qml
         Alert.qml
         Toast.qml
+        ToastArea.qml
 )
