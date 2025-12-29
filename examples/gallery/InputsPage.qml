@@ -23,7 +23,7 @@ ScrollView {
 
         CodeBlock {
             Layout.fillWidth: true
-            code: 'Loom.TextField {\n    label: "Email"\n    placeholderText: "you@example.com"\n    helperText: "Use your work email."\n    error: false           // true -> red border + errorText\n    variant: "outline"     // outline | filled\n}\n\nLoom.CheckBox { text: "Accept"; tristate: true }\nLoom.Switch   { text: "Notifications"; checked: true }\nLoom.Slider   { from: 0; to: 100; value: 60; stepSize: 10 }\nLoom.RadioGroup { model: ["Light", "Dark", "System"] }'
+            code: 'Loom.TextField {\n    label: "Email"\n    placeholderText: "you@example.com"\n    helperText: "Use your work email."\n    error: false           // true -> red border + errorText\n    variant: "outline"     // outline | filled\n}\n\nLoom.CheckBox { text: "Accept"; tristate: true }\nLoom.Switch   { text: "Notifications"; checked: true }\nLoom.Slider   { from: 0; to: 100; value: 60; stepSize: 10 }\nLoom.RadioGroup { model: ["Light", "Dark", "System"] }\nLoom.ComboBox   { model: ["Apple", "Banana", "Cherry"]; placeholderText: "Pick one" }'
         }
 
         RowLayout {
@@ -105,6 +105,28 @@ ScrollView {
                             { text: "System" },
                             { text: I18n.t("f_disabled"), enabled: false }
                         ]
+                    }
+                }
+
+                TokenSection {
+                    title: I18n.t("g_combobox")
+                    Column {
+                        spacing: Loom.Theme.spacing.md
+                        Loom.ComboBox {
+                            width: 220
+                            model: ["Apple", "Banana", "Cherry", "Date", "Elderberry"]
+                        }
+                        Loom.ComboBox {
+                            width: 220
+                            model: ["Light", "Dark", "System"]
+                            placeholderText: I18n.t("cb_placeholder")
+                            currentIndex: -1
+                        }
+                        Loom.ComboBox {
+                            width: 220
+                            model: [I18n.t("f_disabled")]
+                            enabled: false
+                        }
                     }
                 }
             }

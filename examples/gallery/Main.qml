@@ -185,7 +185,7 @@ ApplicationWindow {
                 Item { Layout.fillHeight: true }
 
                 Text {
-                    text: "QtQuick.Templates · Qt 6.5+\n10 components · zero C++"
+                    text: "QtQuick.Templates · Qt 6.5+\n11 components · zero C++"
                     color: Loom.Theme.mutedForeground
                     font.family: "Menlo"
                     font.pixelSize: 11

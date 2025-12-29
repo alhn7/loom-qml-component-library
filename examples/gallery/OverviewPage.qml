@@ -63,6 +63,7 @@ ScrollView {
                     { n: "Button",    k: "wi_button" },
                     { n: "Card",      k: "wi_card" },
                     { n: "TextField", k: "wi_textfield" },
+                    { n: "ComboBox",  k: "wi_combobox" },
                     { n: "CheckBox",  k: "wi_checkbox" },
                     { n: "Switch",    k: "wi_switch" },
                     { n: "Slider",    k: "wi_slider" },
