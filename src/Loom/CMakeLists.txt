@@ -14,6 +14,7 @@ qt_add_qml_module(LoomModule
         Button.qml
         Card.qml
         TextField.qml
+        ComboBox.qml
         CheckBox.qml
         Switch.qml
         Slider.qml
