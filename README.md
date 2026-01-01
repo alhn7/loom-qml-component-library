@@ -33,6 +33,7 @@ by overriding a handful of properties. No C++ is required to use or build it.
 | `Button` | Filled / outline / ghost variants with hover & press states |
 | `Card` | Elevated surface container |
 | `TextField` | Single-line text input with focus ring |
+| `ComboBox` | Select dropdown with elevated popup & keyboard nav |
 | `CheckBox` | Boolean control with animated check |
 | `Switch` | Toggle control with animated thumb |
 | `Slider` | Draggable value slider with steps & keyboard support |
