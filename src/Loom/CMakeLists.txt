@@ -21,6 +21,7 @@ qt_add_qml_module(LoomModule
         RadioButton.qml
         RadioGroup.qml
         Badge.qml
+        ProgressBar.qml
         Alert.qml
         Toast.qml
         ToastArea.qml
