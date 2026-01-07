@@ -70,7 +70,8 @@ ScrollView {
                     { n: "RadioButton", k: "wi_radio" },
                     { n: "Badge",     k: "wi_badge" },
                     { n: "Alert",     k: "wi_alert" },
-                    { n: "Toast",     k: "wi_toast" }
+                    { n: "Toast",     k: "wi_toast" },
+                    { n: "Progress",  k: "wi_progress" }
                 ]
                 delegate: Rectangle {
                     id: cell
