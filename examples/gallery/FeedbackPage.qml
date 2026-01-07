@@ -27,6 +27,35 @@ Item {
                 Layout.maximumWidth: 640
             }
 
+            // ── Progress: determinate barlar + indeterminate ──
+            TokenSection {
+                Layout.fillWidth: true
+                title: I18n.t("g_progress")
+                ColumnLayout {
+                    spacing: Loom.Theme.spacing.md
+                    RowLayout {
+                        spacing: Loom.Theme.spacing.md
+                        Loom.ProgressBar { Layout.preferredWidth: 280; Layout.alignment: Qt.AlignVCenter; value: 0.3 }
+                        Text { text: "30%"; color: Loom.Theme.mutedForeground; font.pixelSize: Loom.Theme.font.sm }
+                    }
+                    RowLayout {
+                        spacing: Loom.Theme.spacing.md
+                        Loom.ProgressBar { Layout.preferredWidth: 280; Layout.alignment: Qt.AlignVCenter; value: 0.6 }
+                        Text { text: "60%"; color: Loom.Theme.mutedForeground; font.pixelSize: Loom.Theme.font.sm }
+                    }
+                    RowLayout {
+                        spacing: Loom.Theme.spacing.md
+                        Loom.ProgressBar { Layout.preferredWidth: 280; Layout.alignment: Qt.AlignVCenter; value: 1.0 }
+                        Text { text: "100%"; color: Loom.Theme.mutedForeground; font.pixelSize: Loom.Theme.font.sm }
+                    }
+                    RowLayout {
+                        spacing: Loom.Theme.spacing.md
+                        Loom.ProgressBar { Layout.preferredWidth: 280; Layout.alignment: Qt.AlignVCenter; indeterminate: true }
+                        Text { text: I18n.t("pb_loading"); color: Loom.Theme.mutedForeground; font.pixelSize: Loom.Theme.font.sm }
+                    }
+                }
+            }
+
             // ── "Dene" paneli: konum seçici + variant tetikleyicileri ──
             ColumnLayout {
                 Layout.fillWidth: true
