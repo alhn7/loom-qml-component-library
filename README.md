@@ -41,6 +41,7 @@ by overriding a handful of properties. No C++ is required to use or build it.
 | `Badge` | Compact status / label pill |
 | `Alert` | Inline status callout — info / success / warning / destructive |
 | `Toast` | Floating notification — elevation, optional action & dismiss |
+| `ProgressBar` | Determinate & indeterminate progress indicator |
 
 Plus the building blocks: `Theme` (token singleton), `FocusRing`, `Elevation` and
 `ToastArea` (corner overlay host that triggers transient, auto-dismissing toasts).
@@ -129,9 +130,9 @@ cmake --build build
 |---|---|
 | ![Button showcase](docs/button.png) | ![Form controls](docs/inputs.png) |
 
-| Feedback — Alerts & Toasts in four tones |
+| Feedback — Alerts, Toasts & Progress |
 |---|
-| ![Alert callouts and Toast notifications](docs/feedback.png) |
+| ![Alerts, Toasts and Progress bars](docs/feedback.png) |
 
 ## License
 
