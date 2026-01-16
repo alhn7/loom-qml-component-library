@@ -122,17 +122,42 @@ cmake --build build
 ./build/examples/gallery/galleryapp
 ```
 
-| Dark mode | Design tokens |
-|---|---|
-| ![Loom in dark mode](docs/overview-dark.png) | ![Theme token system](docs/theme-dark.png) |
+Every page, in light and dark:
 
-| Buttons — variants, sizes & states | Inputs — TextField, CheckBox, Switch, Slider, Radio |
+#### Overview
+| Light | Dark |
 |---|---|
-| ![Button showcase](docs/button.png) | ![Form controls](docs/inputs.png) |
+| ![Overview (light)](docs/overview-light.png) | ![Overview (dark)](docs/overview-dark.png) |
 
-| Feedback — Alerts, Toasts & Progress |
-|---|
-| ![Alerts, Toasts and Progress bars](docs/feedback.png) |
+#### Theme — design token system
+| Light | Dark |
+|---|---|
+| ![Theme tokens (light)](docs/theme-light.png) | ![Theme tokens (dark)](docs/theme-dark.png) |
+
+#### Button — variants, sizes & states
+| Light | Dark |
+|---|---|
+| ![Button showcase (light)](docs/button-light.png) | ![Button showcase (dark)](docs/button-dark.png) |
+
+#### Card — named slots & elevation
+| Light | Dark |
+|---|---|
+| ![Card slots (light)](docs/card-light.png) | ![Card slots (dark)](docs/card-dark.png) |
+
+#### Inputs — TextField, CheckBox, Switch, Slider, Radio, ComboBox
+| Light | Dark |
+|---|---|
+| ![Form controls (light)](docs/inputs-light.png) | ![Form controls (dark)](docs/inputs-dark.png) |
+
+#### Badge — status labels
+| Light | Dark |
+|---|---|
+| ![Badge variants (light)](docs/badge-light.png) | ![Badge variants (dark)](docs/badge-dark.png) |
+
+#### Feedback — Alerts, Toasts & Progress
+| Light | Dark |
+|---|---|
+| ![Feedback (light)](docs/feedback-light.png) | ![Feedback (dark)](docs/feedback-dark.png) |
 
 ## License
 
