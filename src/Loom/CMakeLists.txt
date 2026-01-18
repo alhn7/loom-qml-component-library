@@ -25,4 +25,5 @@ qt_add_qml_module(LoomModule
         Alert.qml
         Toast.qml
         ToastArea.qml
+        Tooltip.qml
 )
