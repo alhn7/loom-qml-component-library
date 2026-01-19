@@ -56,6 +56,33 @@ Item {
                 }
             }
 
+            // ── Tooltip: hover'da ipucu balonu ──
+            TokenSection {
+                Layout.fillWidth: true
+                title: I18n.t("g_tooltip")
+                RowLayout {
+                    spacing: Loom.Theme.spacing.lg
+                    Loom.Button {
+                        id: ttSave
+                        text: "Save"
+                        variant: "outline"
+                        Loom.Tooltip { text: "Save your changes"; visible: ttSave.hovered }
+                    }
+                    Loom.Button {
+                        id: ttDelete
+                        text: "Delete"
+                        variant: "destructive"
+                        Loom.Tooltip { text: "Delete permanently"; visible: ttDelete.hovered }
+                    }
+                    Loom.Button {
+                        id: ttSettings
+                        text: "Settings"
+                        variant: "ghost"
+                        Loom.Tooltip { text: "Open settings"; visible: ttSettings.hovered }
+                    }
+                }
+            }
+
             // ── "Dene" paneli: konum seçici + variant tetikleyicileri ──
             ColumnLayout {
                 Layout.fillWidth: true

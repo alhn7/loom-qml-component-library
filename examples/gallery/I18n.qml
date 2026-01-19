@@ -30,7 +30,7 @@ QtObject {
             "desc_card": "Named slots · elevation",
             "desc_inputs": "TextField · CheckBox · Switch · Slider · Radio · ComboBox",
             "desc_badge": "Status labels",
-            "desc_feedback": "Alerts · toasts · progress & status",
+            "desc_feedback": "Alerts · toasts · progress · tooltips",
             "g_toast_try": "Try it",
             "toast_position": "Position",
             "ov_hero": "A modern, minimal component library for QML.",
@@ -56,6 +56,7 @@ QtObject {
             "g_alert": "Alert",
             "g_toast": "Toast",
             "g_progress": "Progress",
+            "g_tooltip": "Tooltip",
             "intro_theme": "Every color, spacing, radius and type value comes from one writable Theme singleton. Change a seed token to rebrand everything live.",
             "intro_button": "Built on QtQuick.Templates — focus, keyboard and press states come for free. Five variants, three sizes, plus loading and icon support.",
             "intro_card": "A container with named header / content / footer slots and an optional MultiEffect shadow (elevation 0–3).",
@@ -100,7 +101,8 @@ QtObject {
             "wi_combobox": "select dropdown · keyboard",
             "cb_placeholder": "Select theme",
             "wi_progress": "determinate · indeterminate",
-            "pb_loading": "Loading…"
+            "pb_loading": "Loading…",
+            "wi_tooltip": "hover hint · elevated"
         },
         "de": {
             "desc_overview": "Einführung & Einrichtung",
@@ -109,7 +111,7 @@ QtObject {
             "desc_card": "Benannte Slots · Elevation",
             "desc_inputs": "TextField · CheckBox · Switch · Slider · Radio · ComboBox",
             "desc_badge": "Status-Labels",
-            "desc_feedback": "Alerts · Toasts · Progress & Status",
+            "desc_feedback": "Alerts · Toasts · Progress · Tooltips",
             "g_toast_try": "Ausprobieren",
             "toast_position": "Position",
             "ov_hero": "Eine moderne, minimalistische Komponentenbibliothek für QML.",
@@ -135,6 +137,7 @@ QtObject {
             "g_alert": "Alert",
             "g_toast": "Toast",
             "g_progress": "Progress",
+            "g_tooltip": "Tooltip",
             "intro_theme": "Jeder Farb-, Abstands-, Radius- und Schriftwert stammt aus einem einzigen beschreibbaren Theme-Singleton. Ändere ein Seed-Token, um alles live umzustylen.",
             "intro_button": "Basiert auf QtQuick.Templates — Fokus-, Tastatur- und Druckzustände gibt es gratis. Fünf Varianten, drei Größen, dazu Loading und Icon.",
             "intro_card": "Ein Container mit benannten header- / content- / footer-Slots und optionalem MultiEffect-Schatten (Elevation 0–3).",
@@ -179,7 +182,8 @@ QtObject {
             "wi_combobox": "Auswahl-Dropdown · Tastatur",
             "cb_placeholder": "Theme wählen",
             "wi_progress": "bestimmt · unbestimmt",
-            "pb_loading": "Lädt…"
+            "pb_loading": "Lädt…",
+            "wi_tooltip": "Hover-Hinweis · Elevation"
         },
         "es": {
             "desc_overview": "Introducción y configuración",
@@ -188,7 +192,7 @@ QtObject {
             "desc_card": "Slots con nombre · elevación",
             "desc_inputs": "TextField · CheckBox · Switch · Slider · Radio · ComboBox",
             "desc_badge": "Etiquetas de estado",
-            "desc_feedback": "Alertas · toasts · progreso y estado",
+            "desc_feedback": "Alertas · toasts · progreso · tooltips",
             "g_toast_try": "Pruébalo",
             "toast_position": "Posición",
             "ov_hero": "Una biblioteca de componentes moderna y minimalista para QML.",
@@ -214,6 +218,7 @@ QtObject {
             "g_alert": "Alert",
             "g_toast": "Toast",
             "g_progress": "Progress",
+            "g_tooltip": "Tooltip",
             "intro_theme": "Cada color, espaciado, radio y valor tipográfico proviene de un único Theme singleton editable. Cambia un token semilla para rediseñar todo en vivo.",
             "intro_button": "Construido sobre QtQuick.Templates: foco, teclado y estados de pulsación gratis. Cinco variantes, tres tamaños, más loading e icono.",
             "intro_card": "Un contenedor con slots header / content / footer con nombre y sombra MultiEffect opcional (elevación 0–3).",
@@ -258,7 +263,8 @@ QtObject {
             "wi_combobox": "desplegable · teclado",
             "cb_placeholder": "Elegir tema",
             "wi_progress": "determinado · indeterminado",
-            "pb_loading": "Cargando…"
+            "pb_loading": "Cargando…",
+            "wi_tooltip": "sugerencia al pasar · elevado"
         },
         "tr": {
             "desc_overview": "Tanıtım & kurulum",
@@ -267,7 +273,7 @@ QtObject {
             "desc_card": "Named slot · elevation",
             "desc_inputs": "TextField · CheckBox · Switch · Slider · Radio · ComboBox",
             "desc_badge": "Durum etiketleri",
-            "desc_feedback": "Uyarılar · toast'lar · progress & durum",
+            "desc_feedback": "Uyarılar · toast'lar · progress · tooltip",
             "g_toast_try": "Dene",
             "toast_position": "Konum",
             "ov_hero": "QML için modern, minimal bir component kütüphanesi.",
@@ -293,6 +299,7 @@ QtObject {
             "g_alert": "Alert",
             "g_toast": "Toast",
             "g_progress": "Progress",
+            "g_tooltip": "Tooltip",
             "intro_theme": "Her renk, boşluk, radius ve tipografi değeri tek bir yazılabilir Theme singleton'dan gelir. Bir tohum token'ı değiştir, her şey canlı olarak yeniden markalansın.",
             "intro_button": "QtQuick.Templates üstüne kurulu — focus, klavye ve basılı durumları bedava gelir. Beş variant, üç boyut, ayrıca loading ve ikon desteği.",
             "intro_card": "İsimli header / content / footer slot'ları ve opsiyonel MultiEffect gölgesi (elevation 0–3) olan bir konteyner.",
@@ -337,7 +344,8 @@ QtObject {
             "wi_combobox": "seçim dropdown · klavye",
             "cb_placeholder": "Tema seç",
             "wi_progress": "belirli · belirsiz",
-            "pb_loading": "Yükleniyor…"
+            "pb_loading": "Yükleniyor…",
+            "wi_tooltip": "hover ipucu · elevation"
         }
     }
 }
